@@ -4,6 +4,7 @@ layout: default
 
 ## About Me
 
+<img class="profile-picture" src="kaija1.jpg">
 
 Hi! My name is **Kaija Frierson**, and I am a third-year Honors Computer Science student at the University of Arkansas.  
 My interests include **human–computer interaction**, **accessibility**, and **inclusive design**, especially supporting those with disabilities and/or diseases.
