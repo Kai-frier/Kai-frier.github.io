@@ -42,5 +42,5 @@ I am passionate about building technology that reduces barriers, empowers margin
 
 Feel free to reach out if you’d like to talk about accessibility, HCI research, or inclusive computing.
 
-- **Email:** kaijaf@uark.edu  
+- **Email:** kaijaf@uark.edu  or kaijafrierson2005@gmail.com
 - **LinkedIn:** www.linkedin.com/in/kaija-frierson  
