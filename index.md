@@ -6,11 +6,11 @@ layout: default
 
 <div style="display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; margin-top:10px;">
 
-  <img src="/kaija.jpg"
+  <img src="kaija.jpg"
        alt="Photo of Kaija Frierson"
        style="width:260px; max-width:100%; border-radius:6px;">
 
-  <div markdown="1">
+  <div>
 
 Hi! My name is **Kaija Frierson**, and I am a third-year Honors Computer Science student at the University of Arkansas.  
 My interests include **human–computer interaction**, **accessibility**, and **inclusive design**, especially supporting those with disabilities and/or diseases.
