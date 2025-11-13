@@ -3,7 +3,8 @@ markdown: kramdown
 # Site identity
 title: "Kaija Frierson"
 name: "Kaija Frierson"
-url: "https://kai-frier.github.io"
+url: "https://kaijafrierson.github.io"
+
 baseurl: ""
 
 # Optional logo (commented out for now)
@@ -21,7 +22,7 @@ sass:
 
 nav:
   - name: "About"
-    link: "https://kai-frier.github.io/"
+    link: url: "https://kaijafrierson.github.io"
   - name: "Resume"
     link: "resume.pdf"
   - name: "Contact"
