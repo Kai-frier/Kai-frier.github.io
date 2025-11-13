@@ -6,15 +6,14 @@
 @import "tables";
 @import "typography";
 
+/* ---- Kaija custom overrides ---- */
 
-/* ---- Kaija custom theme overrides ---- */
-
-/* Soft lavender background for whole page */
+/* Soft lavender page background */
 body {
-  background-color: #f3e8ff !important;
+  background-color: #f3e8ff !important;  // light purple
 }
 
-/* Use purple for links */
+/* Purple links to match accent */
 a {
   color: #8a4fff !important;
 }
