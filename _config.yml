@@ -1,19 +1,28 @@
 markdown: kramdown
+
+# Site identity
+title: "Kaija Frierson"
+name: "Kaija Frierson"
+url: "https://kai-frier.github.io"
+baseurl: ""
+
+# Optional logo (commented out for now)
 #ins_logo: "./bits-logo.png"
 
-tracking_id: #
+tracking_id:
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
 footer_text: "Page design by Ankit Sultana"
 
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
 
 nav:
- - name: "About"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+  - name: "About"
+    link: ""
+  - name: "Resume"
+    link: "resume.pdf"
+  - name: "Contact"
+    link: "contact"
