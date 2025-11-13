@@ -6,7 +6,7 @@ layout: default
 
 <div style="display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; margin-top:10px;">
 
-  <img src="kaija.jpg"
+  <img src="kaija1.jpg"
        alt="Photo of Kaija Frierson"
        style="width:260px; max-width:100%; border-radius:6px;">
 
