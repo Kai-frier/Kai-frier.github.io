@@ -21,3 +21,12 @@ a {
 a:hover {
   color: #6a33e0 !important;
 }
+
+/* Force the profile picture to be small and circular */
+.content img.profile-picture {
+  width: 130px !important;
+  height: 130px !important;
+  border-radius: 50%;
+  float: left;
+  margin: 0 20px 10px 0;
+}
