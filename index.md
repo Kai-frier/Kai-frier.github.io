@@ -12,8 +12,8 @@ layout: default
 
   <div>
 
-Hi! My name is **Kaija Frierson**, and I am a third-year Honors Computer Science student at the University of Arkansas.  
-My interests include **human–computer interaction**, **accessibility**, and **inclusive design**, especially supporting those with disabilities and/or diseases.
+Hi! My name is Kaija Frierson, and I am a third-year Honors Computer Science student at the University of Arkansas.  
+My interests include human–computer interaction, accessibility, and inclusive design, especially supporting those with disabilities and/or diseases.
 
 This year, I have been working on projects focused on accessible computer-science diagrams, tactile representations, and personalized information retrieval for users with diverse accessibility needs.
 
