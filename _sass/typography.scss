@@ -36,23 +36,24 @@
         padding: 2px 8px 2px 8px;
         font-style: italic;
     }
-    .profile-picture {
+        .profile-picture {
         height: $image-size;
         width: $image-size;
         position: relative;
-        margin: -10px 0 0 15px;
-        float: right;
-        border-radius: 50%;
+        margin: 0 20px 10px 0;  // space to the right & below
+        float: left;            // move image to the left like Bridget's
+        border-radius: 50%;     // keep it circular
         p & {
             padding: 0;
             margin: 0;
         }
         @media (max-width: $small-width) {
-            img {
-                margin-top: -5px;
-            }
+            float: none;
+            margin: 0 auto 15px auto;
+            display: block;
         }
     }
+
     img {
         text-align: center;
         width: 100%;
