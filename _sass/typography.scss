@@ -4,9 +4,12 @@
     a:hover {
         text-decoration: underline;
     }
+
     ol {
         counter-reset: list;
+        padding: 0 30px 0 30px;
     }
+
     ol > li {
         list-style-position: none;
         position: relative;
@@ -14,21 +17,22 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+    ul {
+        padding: 0 20px 0 20px;
+    }
+
     ul > li {
         margin: 5px 0 5px 0;
     }
-    ul {
-        padding: 0 20px 0 20px;;
-    }
-    ol {
-        padding: 0 30px 0 30px;
-    }
+
     ol > li:before {
         content: "[" counter(list, decimal) "] ";
         counter-increment: list;
         position: absolute;
         left: -30px;
     }
+
     blockquote {
         //border: 1px solid black;
         border-left: 5px solid #333333;
@@ -36,17 +40,21 @@
         padding: 2px 8px 2px 8px;
         font-style: italic;
     }
-        .profile-picture {
+
+    /* Profile picture styling */
+    .profile-picture {
         height: $image-size;
         width: $image-size;
         position: relative;
-        margin: 0 20px 10px 0;  // space to the right & below
-        float: left;            // move image to the left like Bridget's
-        border-radius: 50%;     // keep it circular
+        margin: 0 20px 10px 0;   // space to the right & below
+        float: left;             // photo on the left, text on the right
+        border-radius: 50%;      // circular
+
         p & {
             padding: 0;
             margin: 0;
         }
+
         @media (max-width: $small-width) {
             float: none;
             margin: 0 auto 15px auto;
@@ -54,8 +62,17 @@
         }
     }
 
+    /* Generic images */
     img {
         text-align: center;
-        width: 100%;
+        max-width: 100%;   // let big images shrink, but not stretch
+        height: auto;
+    }
+
+    /* Explicit size for the profile image */
+    img.profile-picture {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
     }
 }
