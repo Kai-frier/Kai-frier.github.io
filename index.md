@@ -4,12 +4,6 @@ layout: default
 
 ## About Me
 
----
-layout: default
----
-
-## About Me
-
 <div style="display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; margin-top:10px;">
 
   <img src="/kaija.jpg"
