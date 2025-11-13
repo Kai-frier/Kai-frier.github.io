@@ -22,7 +22,7 @@ sass:
 
 nav:
   - name: "About"
-    link: url: "https://kaijafrierson.github.io"
+    link: "https://kaijafrierson.github.io"
   - name: "Resume"
     link: "resume.pdf"
   - name: "Contact"
